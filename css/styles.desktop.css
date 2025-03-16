@@ -83,6 +83,34 @@ nav {
     text-decoration: underline;
 }
 
+/* Sección Skills & Tecnologías */
+.dropdown {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid var(--accent-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    background: white;
+    cursor: pointer;
+}
+
+.projects-list {
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--light-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.projects-list p {
+    font-size: 1.2rem;
+    color: var(--dark-color);
+}
 /* Pie de página */
 footer {
     text-align: center;
