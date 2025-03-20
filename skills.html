@@ -19,16 +19,14 @@
     
     <section class="container">
         <h2>Selecciona una tecnología</h2>
-        <select id="skills-dropdown" class="dropdown">
-            <option value="">-- Elige una opción --</option>
-            <option value="c">C</option>
-            <option value="c-plus-plus">C++</option>
-            <option value="python">Python</option>
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-            <option value="javascript">JavaScript</option>
-
-        </select>
+        <div class="skills-nav">
+            <img src="assets/icons/c.svg" alt="C" class="skill-icon" data-skill="c">
+            <img src="assets/icons/cplusplus.svg" alt="C++" class="skill-icon" data-skill="cpp">
+            <img src="assets/icons/python.svg" alt="Python" class="skill-icon" data-skill="python">
+            <img src="assets/icons/javascript.svg" alt="JavaScript" class="skill-icon" data-skill="javascript">
+            <img src="assets/icons/css3.svg" alt="CSS" class="skill-icon" data-skill="css">
+            <img src="assets/icons/html5.svg" alt="HTML" class="skill-icon" data-skill="html">
+        </div>
         
         <div id="projects" class="projects-list">
             <p>Selecciona una tecnología para ver proyectos relacionados.</p>
@@ -38,5 +36,7 @@
     <footer>
         <p>&copy; 2025 Jaime Martínez. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="js/skills.js"></script>
 </body>
 </html>
